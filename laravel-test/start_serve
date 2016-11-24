@@ -1,1 +1,1 @@
-php artisan serve --host=192.168.204.128 --post=8000 -vvv > storage/logs/serve.log 2>&1 &
+/usr/bin/php artisan serve --host=0.0.0.0 --port=8000 -vvv > storage/logs/serve.log 2>&1 &
