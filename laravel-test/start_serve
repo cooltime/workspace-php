@@ -1,0 +1,1 @@
+php artisan serve --host=192.168.204.128 --post=8000 -vvv > storage/logs/serve.log 2>&1 &
