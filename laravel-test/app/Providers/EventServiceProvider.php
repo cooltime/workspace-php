@@ -13,6 +13,9 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
+        'Cooltime\Events\Test' => [
+            'Cooltime\Listeners\TestListener',
+        ],
         'Cooltime\Events\SomeEvent' => [
             'Cooltime\Listeners\EventListener',
         ],
