@@ -29,3 +29,4 @@ Route::resource('res', 'ResController');
 Route::match(['get', 'post'], '/test1', 'Controller@test1');
 Route::match(['get', 'post'], '/redis', 'Controller@redis');
 Route::match(['get', 'post'], '/cache', 'Controller@cache');
+Route::match(['get', 'post'], '/vue/test1', 'VueController@test1');
